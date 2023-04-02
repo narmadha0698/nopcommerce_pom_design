@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-02T15:53:06 IST" name="MyTestSuite" finished-at="2023-04-02T15:54:14 IST" duration-ms="68429">
+    <groups>
+    </groups>
+    <test started-at="2023-04-02T15:53:06 IST" name="MyTests" finished-at="2023-04-02T15:54:14 IST" duration-ms="68429">
+      <class name="edubridge.nopcommerce.tests.RegisterTest">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:edubridge.nopcommerce.tests.RegisterTest@f6efaab]" started-at="2023-04-02T15:53:06 IST" name="StartBrowser" finished-at="2023-04-02T15:53:57 IST" duration-ms="50875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="Test_Register_Success(org.testng.ITestContext)[pri:0, instance:edubridge.nopcommerce.tests.RegisterTest@f6efaab]" started-at="2023-04-02T15:53:57 IST" name="Test_Register_Success" finished-at="2023-04-02T15:54:00 IST" duration-ms="3523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e6f2bb5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Register_Success -->
+      </class> <!-- edubridge.nopcommerce.tests.RegisterTest -->
+      <class name="edubridge.nopcommerce.tests.LoginTest">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:edubridge.nopcommerce.tests.LoginTest@3590fc5b]" started-at="2023-04-02T15:54:00 IST" name="StartBrowser" finished-at="2023-04-02T15:54:00 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="Test_Login_Success(org.testng.ITestContext)[pri:0, instance:edubridge.nopcommerce.tests.LoginTest@3590fc5b]" started-at="2023-04-02T15:54:00 IST" name="Test_Login_Success" finished-at="2023-04-02T15:54:03 IST" duration-ms="2264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e6f2bb5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Success -->
+      </class> <!-- edubridge.nopcommerce.tests.LoginTest -->
+      <class name="edubridge.nopcommerce.tests.HomePageTest">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:edubridge.nopcommerce.tests.HomePageTest@515c6049]" started-at="2023-04-02T15:54:03 IST" name="StartBrowser" finished-at="2023-04-02T15:54:03 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="Test_ProductSearch_Success(java.lang.String,org.testng.ITestContext)[pri:1, instance:edubridge.nopcommerce.tests.HomePageTest@515c6049]" started-at="2023-04-02T15:54:03 IST" name="Test_ProductSearch_Success" data-provider="searchdata-provider" finished-at="2023-04-02T15:54:07 IST" duration-ms="4649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lenovo IdeaCentre 600 All-in-One PC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e6f2bb5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_ProductSearch_Success -->
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:edubridge.nopcommerce.tests.HomePageTest@515c6049]" started-at="2023-04-02T15:54:07 IST" name="StartBrowser" finished-at="2023-04-02T15:54:07 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="AddProductToCartAndCheckOut()[pri:0, instance:edubridge.nopcommerce.tests.HomePageTest@515c6049]" started-at="2023-04-02T15:54:07 IST" name="AddProductToCartAndCheckOut" finished-at="2023-04-02T15:54:09 IST" depends-on-methods="edubridge.nopcommerce.tests.HomePageTest.Test_ProductSearch_Success" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToCartAndCheckOut -->
+      </class> <!-- edubridge.nopcommerce.tests.HomePageTest -->
+      <class name="edubridge.nopcommerce.tests.CheckOutTest">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:edubridge.nopcommerce.tests.CheckOutTest@639c2c1d]" started-at="2023-04-02T15:54:09 IST" name="StartBrowser" finished-at="2023-04-02T15:54:09 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="Start_CheckOut_Success()[pri:1, instance:edubridge.nopcommerce.tests.CheckOutTest@639c2c1d]" started-at="2023-04-02T15:54:09 IST" name="Start_CheckOut_Success" finished-at="2023-04-02T15:54:11 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start_CheckOut_Success -->
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:edubridge.nopcommerce.tests.CheckOutTest@639c2c1d]" started-at="2023-04-02T15:54:11 IST" name="StartBrowser" finished-at="2023-04-02T15:54:11 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="Complete_CheckOut_Success(java.lang.String,java.lang.String)[pri:2, instance:edubridge.nopcommerce.tests.CheckOutTest@639c2c1d]" started-at="2023-04-02T15:54:11 IST" name="Complete_CheckOut_Success" data-provider="country-data-provider" finished-at="2023-04-02T15:54:14 IST" duration-ms="3445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Complete_CheckOut_Success -->
+      </class> <!-- edubridge.nopcommerce.tests.CheckOutTest -->
+    </test> <!-- MyTests -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>

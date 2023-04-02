@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+    <test name="MyTests">
+        <classes>
+            <class name="edubridge.nopcommerce.tests.RegisterTest"/>
+            <class name="edubridge.nopcommerce.tests.LoginTest"/>
+            <class name="edubridge.nopcommerce.tests.HomePageTest"/>
+            <class name="edubridge.nopcommerce.tests.CheckOutTest"/>
+        </classes>
+    </test>
+</suite>

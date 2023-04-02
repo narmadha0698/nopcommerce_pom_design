@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MyTests(failed)">
+    <classes>
+      <class name="edubridge.nopcommerce.tests.CheckOutTest">
+        <methods>
+          <include name="StartBrowser"/>
+          <include name="Complete_CheckOut_Success" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- edubridge.nopcommerce.tests.CheckOutTest -->
+    </classes>
+  </test> <!-- MyTests(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->
